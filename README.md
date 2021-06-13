@@ -43,6 +43,9 @@ $ ./install.sh
 If you are on Windows 32-bit, there is no binary in akiirui's repository for Win32, you can use my version of [mpv-handler for Win32](https://github.com/nsinister/mpv-url-handler/releases)
 
 
+## Limitations
+* Live streams aren't fully supported by mpv + youtube-dl, thus you may want to avoid clicking on live stream thumnails
+
 ## Notes
 Tested and confirmed working in the following setups:
 * GNU/Linux with Xorg, Mozilla Firefox, Violentmonkey
