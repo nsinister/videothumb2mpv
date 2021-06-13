@@ -23,8 +23,8 @@ Potentially it works with anything that mpv and its youtube-dl backend supports.
 
 1. Clone this repository
 1. Do one of the following:
+    1. Install script from [Greasyfork](https://greasyfork.org/en/scripts/427882-click-on-video-thumbnail-to-play-in-mpv) or [OpenUserJS] (https://openuserjs.org/scripts/nsinister/Click_on_video_thumbnail_to_play_in_MPV)
     1. Create a script in your browser userscript manager and paste contents of userscript.js from this repository
-    1. Install script from [Greasyfork](https://greasyfork.org/en/scripts/427882-click-on-video-thumbnail-to-play-in-mpv)
 1. Make sure the userscript is enabled
 1. Install mpv URL handler using the commands below
 
