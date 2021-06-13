@@ -13,13 +13,16 @@ It simply replaces video thumbnail hyperlinks on a page, changing their protocol
 
 Potentially it works with anything that mpv and its youtube-dl backend supports. But in order to add support for a certain website, one needs to find its DOM selector for site specific video thumnails and put it into the dictionary inside the userscript
 
+## Prerequisites
+* Any modern web browser that supports extensions 
+* mpv media player
+
 ## Instructions
 
-### In your browser
 1. Install userscript manager browser extension, such as [Violentmonkey](https://violentmonkey.github.io/).
 1. Create script and paste contents of userscript.js from this repository
-1. Make sure the script is enabled
-
+1. Make sure the userscript is enabled
+1. Install mpv URL handler using the commands below
 
 ### GNU/Linux and UNIX like
 
