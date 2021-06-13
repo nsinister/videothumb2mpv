@@ -17,12 +17,12 @@ Potentially it works with anything that mpv and its youtube-dl backend supports.
 * Any modern web browser that supports extensions 
 * [mpv media player](https://mpv.io/)
 * [youtube-dl](https://youtube-dl.org/)
+* Userscript manager, such as [Violentmonkey](https://violentmonkey.github.io/), [Greasemonkey](https://www.greasespot.net/) or [Tampermonkey](https://www.tampermonkey.net/)
 
-## Instructions
+## Installation
 
 1. Clone this repository
-1. Install userscript manager browser extension, such as [Violentmonkey](https://violentmonkey.github.io/).
-1. Create script and paste contents of userscript.js from this repository
+1. Create a script in your browser userscript manager and paste contents of userscript.js from this repository
 1. Make sure the userscript is enabled
 1. Install mpv URL handler using the commands below
 
