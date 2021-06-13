@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=mpv-url-handler
+GenericName=Multimedia player
+Comment=Play web media content with mpv
+NoDisplay=true
+Icon=mpv
+Terminal=false
+Categories=AudioVideo;Audio;Video;Player;TV;
+MimeType=x-scheme-handler/mpv;
+X-KDE-Protocols=mpv
