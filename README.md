@@ -15,7 +15,8 @@ Potentially it works with anything that mpv and its youtube-dl backend supports.
 
 ## Prerequisites
 * Any modern web browser that supports extensions 
-* mpv media player
+* [mpv media player](https://mpv.io/)
+* [youtube-dl](https://youtube-dl.org/)
 
 ## Instructions
 
