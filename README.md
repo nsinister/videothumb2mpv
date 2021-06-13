@@ -38,7 +38,7 @@ $ ./install.sh
 1. Unzip the downloaded archive to mpv installation folder
 1. Run handler-install.bat to register protocol handler
 
-If you are on Windows 32-bit, there is no binary in akiirui's repository for Win32, you can use my version of mpv-handler for Win32
+If you are on Windows 32-bit, there is no binary in akiirui's repository for Win32, you can use my version of [mpv-handler for Win32](https://github.com/nsinister/mpv-url-handler/releases)
 
 
 ## Notes
