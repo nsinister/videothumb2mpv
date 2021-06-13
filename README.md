@@ -6,6 +6,8 @@ A browser userscript that will allow you to open videos in external player mpv b
 ## How it works?
 It simply replaces video thumbnail hyperlinks on a page, changing their protocol from https:// to mpv:// and coding the original URL as base64. The result string is then passed to mpv:// URI handler as base64 string. 
 
+[Demonstration](https://imgur.com/kUrRmaJ)
+
 ## Supported resources
 
 * YouTube
