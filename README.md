@@ -19,6 +19,7 @@ Potentially it works with anything that mpv and its youtube-dl backend supports.
 
 ## Instructions
 
+1. Clone this repository
 1. Install userscript manager browser extension, such as [Violentmonkey](https://violentmonkey.github.io/).
 1. Create script and paste contents of userscript.js from this repository
 1. Make sure the userscript is enabled
