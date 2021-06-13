@@ -51,8 +51,10 @@ Tested and confirmed working in the following setups:
 * GNU/Linux with Xorg, Mozilla Firefox, Violentmonkey
 * Windows, Chrome, Tampermonkey
 
-For better experience you may want to set max quality in mpv config. For example: you want vidoes to be viewable in not higher than 1080p
-Edit file ~/.config/mpv/mpv.conf in GNU/Linux or mpv.conf in your mpv folder, create file if not exists Add the following line in mpv.conf
+For better experience you may want to set max quality in mpv config. For example: you want vidoes to be viewable in not higher than 1080p.
+
+To accomplish that, edit file ~/.config/mpv/mpv.conf in GNU/Linux or mpv.conf in your mpv folder (create file if not exists). 
+Add the following line in mpv.conf
 ```
 ytdl-format=bestvideo[height<=1080]+bestaudio
 ```
