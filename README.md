@@ -36,11 +36,11 @@ $ ./install.sh
 ```
 ### Windows
 1. Ensure you have [mpv](https://sourceforge.net/projects/mpv-player-windows/files/) and [youtube-dl](http://ytdl-org.github.io/youtube-dl/download.html) extracted in the same folder.
-1. Download latest release for Windows from [mpv-handler by akiirui repository](https://github.com/akiirui/mpv-handler/releases)
+1. Download Windows archive for your architecture from [mpv-url-handler repository](https://github.com/nsinister/mpv-url-handler/releases)
 1. Unzip the downloaded archive to mpv installation folder
+1. Download [handler-install.bat](https://github.com/akiirui/mpv-handler/blob/main/share/windows/handler-install.bat) script from [mpv-handler by  akiirui](https://github.com/akiirui/mpv-handler) repository.
+1. Copy handler-install.bat into mpv folder
 1. Run handler-install.bat to register protocol handler
-
-If you are on Windows 32-bit, there is no binary in akiirui's repository for Win32, you can use my version of [mpv-handler for Win32](https://github.com/nsinister/mpv-url-handler/releases)
 
 
 ## Limitations
