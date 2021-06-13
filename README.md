@@ -26,13 +26,24 @@ Potentially it works with anything that mpv and its youtube-dl backend supports.
 1. Make sure the userscript is enabled
 1. Install mpv URL handler using the commands below
 
-### GNU/Linux and UNIX like
+### GNU/Linux
 
 ```sh
 $ chmod +x install.sh
 $ ./install.sh
 ```
+### Windows
+1. Ensure you have mpv and youtube-dl extracted in the same folder.
+1. Download latest release for Windows from mpv-handler by akiirui repository
+1. Unzip the downloaded archive to mpv installation folder
+1. Run handler-install.bat to register protocol handler
+
+If you are on Windows 32-bit, there is no binary in akiirui's repository for Win32, you can use my version of mpv-handler for Win32
+
 
 ## Notes
 Confirmed working the following setups:
-* GNU/Linux with Xorg, Mozilla Firefox browser, Violentmonkey extension
+* GNU/Linux with Xorg, Mozilla Firefox, Violentmonkey
+* Windows, Chrome, Tampermonkey
+
+
