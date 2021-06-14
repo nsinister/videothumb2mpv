@@ -56,7 +56,8 @@ set PATH=%PATH%;C:\your\path\to\mpv\folder\here\
 * Video quality is automatically chosen by MPV, so you can configure MPV to your liking (see notes below)
 
 ## Known bugs
-New video links are not generated after consequent search on YouTube
+New video links are not generated after consequent search on YouTube.
+
 When you Search on YouTube consequently, it doesn't reload page, so previous links are preserved as onclick events. Workaround: reload page after you performed Search.
 
 ## Notes
