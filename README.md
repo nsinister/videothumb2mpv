@@ -52,6 +52,8 @@ set PATH=%PATH%;C:\your\path\to\mpv\folder\here\
 
 ## Limitations
 * Live streams aren't fully supported by mpv + youtube-dl, thus you may want to avoid clicking on live stream thumbnails
+* Cookies are not passed in any way, hence private vidoes (subscriber only) won't play
+* Video quality is automatically chosen by MPV, so you can configure MPV to your liking (see notes below)
 
 ## Notes
 Tested and confirmed working in the following setups:
