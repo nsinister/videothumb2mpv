@@ -55,6 +55,9 @@ set PATH=%PATH%;C:\your\path\to\mpv\folder\here\
 * Cookies are not passed in any way, hence private vidoes (subscriber only) won't play
 * Video quality is automatically chosen by MPV, so you can configure MPV to your liking (see notes below)
 
+## Known bugs
+* After you Search on YouTube, it doesn't reload page, so previous links are preserved as onclick events. Workaround: reload page after you performed Search.
+
 ## Notes
 Tested and confirmed working in the following setups:
 * GNU/Linux with Xorg, Mozilla Firefox, Violentmonkey
