@@ -13,7 +13,7 @@ It simply replaces video thumbnail hyperlinks on a page, changing their protocol
 * YouTube
 * Vimeo
 
-Potentially it works with anything that mpv and its youtube-dl backend supports. But in order to add support for a certain website, one needs to find its DOM selector for site specific video thumnails and put it into the dictionary inside the userscript
+Potentially it works with anything that mpv and its youtube-dl backend supports. But in order to add support for a certain website, one needs to find its DOM selector for site specific video thumbnails and put it into the dictionary inside the userscript
 
 ## Prerequisites
 * Any modern web browser that supports extensions 
@@ -44,9 +44,14 @@ $ ./install.sh
 1. Copy handler-install.bat into mpv folder
 1. Run handler-install.bat to register protocol handler
 
+If it does not work, add MPV folder to your PATH environment variable.
+
+```cmd
+set PATH=%PATH%;C:\your\path\to\mpv\folder\here\
+```
 
 ## Limitations
-* Live streams aren't fully supported by mpv + youtube-dl, thus you may want to avoid clicking on live stream thumnails
+* Live streams aren't fully supported by mpv + youtube-dl, thus you may want to avoid clicking on live stream thumbnails
 
 ## Notes
 Tested and confirmed working in the following setups:
