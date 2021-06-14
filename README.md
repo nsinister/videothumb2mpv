@@ -56,7 +56,8 @@ set PATH=%PATH%;C:\your\path\to\mpv\folder\here\
 ## Notes
 Tested and confirmed working in the following setups:
 * GNU/Linux with Xorg, Mozilla Firefox, Violentmonkey
-* Windows, Chrome, Tampermonkey
+* Windows 32-bit, Chrome, Tampermonkey
+* Windows 64-bit, Firefox, Violentmonkey
 
 For better experience you may want to set max quality in mpv config. For example: you want vidoes to be viewable in not higher than 1080p.
 
