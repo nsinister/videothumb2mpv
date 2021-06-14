@@ -42,9 +42,9 @@ $ ./install.sh
 1. Unzip the downloaded archive to mpv installation folder
 1. Download [handler-install.bat](https://github.com/akiirui/mpv-handler/blob/main/share/windows/handler-install.bat) script from [mpv-handler by  akiirui](https://github.com/akiirui/mpv-handler) repository.
 1. Copy handler-install.bat into mpv folder
-1. Run handler-install.bat to register protocol handler
+1. Run handler-install.bat to register protocol handler (as Administrator)
 
-If it does not work, add MPV folder to your PATH environment variable.
+If it does not work, add MPV folder to your PATH environment variable. (requires administrator rights)
 
 ```cmd
 set PATH=%PATH%;C:\your\path\to\mpv\folder\here\
