@@ -7,8 +7,8 @@
 // @version     0.1
 // @author      nSinister
 // @license     MIT
-// @updateURL https://github.com/nsinister/videothumb2mpv/edit/master/userscript.js
-// @downloadURL https://github.com/nsinister/videothumb2mpv/edit/master/userscript.js
+// @updateURL https://raw.githubusercontent.com/nsinister/videothumb2mpv/master/userscript.js
+// @downloadURL https://raw.githubusercontent.com/nsinister/videothumb2mpv/master/userscript.js
 // @description Open videos in external player (mpv) by simply clicking on a thumbnail.
 // @copyright 2021, nsinister
 // 
