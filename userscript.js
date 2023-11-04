@@ -49,13 +49,14 @@
         }
     }
     
-    // Replaces https:// hyperlinks with mpv:// and overrides click event
+    // Replaces https:// hyperlinks with mpv://play/ and overrides click event
     function replaceLink(node, site) {
       if(node) {
         let hrefval = node.getAttribute('href');
         if (hrefval == null || hrefval.startsWith("mpv"))
           return;
-        let newval = "mpv://" + btoa( (site.needsFullUrl ? site.url : "") + hrefval);
+        let b64url = btoa((site.needsFullUrl ? site.url : "") + hrefval).replace(/\//g, "_").replace(/\+/g, "-").replace(/\=/g, "");
+        let newval = "mpv://play/" + b64url;
         node.setAttribute('href', newval);
         node.addEventListener('click', function(event){
           event.preventDefault();
